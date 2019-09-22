@@ -9,6 +9,7 @@ body {
     padding: 15 15 15 15px;
     width: 100%;
     background-image: url(images/andy.jpg);
+    height: 200%;
 }
 
 .login-page {
@@ -24,7 +25,7 @@ body {
     position: relative;
     text-align: center;
     border: 2px solid black;
-    width: 100%;
+    width: 120%;
     background-color: blue;
 }
 
@@ -47,6 +48,43 @@ body {
     font-size: 18px;
     padding: 12px;
     margin: 0 0 15px;
+    border-radius: 4px;
+}
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-transform: capitalize;
+    line-height: 1.4;
+    word-spacing: 15px;
+    text-shadow: 3px 2px black;
+    word-wrap: break-word;
+    padding-left: 10%;
+    padding-top: -15px;
+    font-weight: 400;
+}
+.top-content {
+    justify-content: space-between;
+    word-spacing: 30%;
+    height: 10px;
+    padding-top: 10px;
+}
+nav {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    justify-content: space-evenly;
+    word-spacing: 80%;
+    height: 20px;
+    font-size: 40px;
+}
+nav a {
+    word-spacing: 80%;
+    font-size: 60px;
+    padding-top: 20%;
+    color: rgb(121, 160, 95);
 }
 .middle-content {
     display: flex;
